@@ -68,8 +68,17 @@ vcpkg_installed/
 Testing/
 .cache/
 
-# Xcode files
-.pbxproj
-.xcworkspacedata
-.xcuserstate
-.plist
+# Xcode
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode - CocoaPods (remove if you commit Pods)
+Pods/
+Podfile.lock
